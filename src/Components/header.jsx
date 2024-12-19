@@ -1,4 +1,6 @@
 import React from "react";
+import TypedText from "./Texto_efecto";
+
 function Header() {
   return (
     <header className="home">
@@ -33,6 +35,7 @@ function Header() {
         </div>
         <div className="escritura_mov">
           <span className="escritura"> </span>
+          <TypedText />
         </div>
       </div>
       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>

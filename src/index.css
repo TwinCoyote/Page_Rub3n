@@ -86,7 +86,10 @@ h1 {
 }
 
 span {
-  margin-top: 250px;
+  margin-top: 15%;
+}
+.escritura_mov {
+  margin-top: -7%;
 }
 
 .texto {
@@ -364,7 +367,6 @@ span {
     color: white;
     font-size: 50px;
     font-weight: 600;
-
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
   .texto {
