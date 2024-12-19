@@ -1,10 +1,9 @@
 import React from "react";
-
-export const Navbar = () => {
+function Header() {
   return (
     <header className="home">
       <nav>
-        <un className="List">
+        <ul className="List">
           <li>
             <a href="#Sobre_mi" className="">
               Sobre Mi
@@ -25,8 +24,9 @@ export const Navbar = () => {
               Contacto{" "}
             </a>
           </li>
-        </un>
+        </ul>
       </nav>
+
       <div className="container">
         <div className="slide_1">
           <span className="texto first-text"> ¡Hola, mundo!</span>
@@ -35,6 +35,8 @@ export const Navbar = () => {
           <span className="escritura"> </span>
         </div>
       </div>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     </header>
   );
-};
+}
+export default Header;

@@ -1,12 +1,14 @@
-import styles from "./App.module.css";
-import { Navbar } from "./components/Navbar/Navbar";
-
+import React from "react";
+import Header from "./Components/header";
+import Segunda_parte from "./Components/segunda_parte";
+import Tercera_parte from "./Components/tercera_parte";
+import "./index.css";
 function App() {
   return (
-    <div className={style.App}>
-      {" "}
-      xd
-      <Navbar />
+    <div>
+      <Header />
+      <Segunda_parte />
+      <Tercera_parte />
     </div>
   );
 }
