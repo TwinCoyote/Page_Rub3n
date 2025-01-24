@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("public/sal.jpg");
+    url("/sal.jpg");
   background-position: 10% 30%;
   width: 100%;
   height: 911px;
@@ -148,7 +148,7 @@ span {
 }
 
 .linea {
-  background-image: url("public/acento-circunflejo.png");
+  background-image: url("/acento-circunflejo.png");
   display: flex;
   justify-self: center;
   width: 50px;
@@ -290,19 +290,19 @@ span {
 }
 
 .tres {
-  background-image: url("public/Jam.jpeg");
+  background-image: url("/Jam.jpeg");
   background-position: 42% 80%;
   background-size: 200%;
 }
 
 .dos {
-  background-image: url("public/web.jpg");
+  background-image: url("/web.jpg");
   background-position: 50% 40%;
   background-size: 110%;
 }
 
 .uno {
-  background-image: url("public/microcontrolador.jpg");
+  background-image: url("/microcontrolador.jpg");
   background-size: 80%;
   background-position: 52% 60%;
 }
@@ -353,7 +353,7 @@ span {
         rgba(0, 0, 0, 0.185),
         rgba(0, 0, 0, 0.226)
       ),
-      url("public/celulares.jpg");
+      url("/celulares.jpg");
     width: 100%;
     height: 849px;
     background-size: 140%;
@@ -525,19 +525,19 @@ span {
   }
 
   .tres {
-    background-image: url("public/Jam.jpeg");
+    background-image: url("/Jam.jpeg");
     background-position: 42% 80%;
     background-size: 200%;
   }
 
   .dos {
-    background-image: url("public/web.jpg");
+    background-image: url("/web.jpg");
     background-position: 50% 40%;
     background-size: 110%;
   }
 
   .uno {
-    background-image: url("public/microcontrolador.jpg");
+    background-image: url("/microcontrolador.jpg");
     background-size: 80%;
     background-position: 52% 60%;
   }
@@ -551,7 +551,7 @@ span {
 @media (min-width: 533px) and (max-width: 859px) {
   .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("public/sal.jpg");
+      url("/sal.jpg");
     background-position: 10% 30%;
     width: 100%;
     height: 911px;
@@ -762,19 +762,19 @@ span {
   }
 
   .tres {
-    background-image: url("public/Jam.jpeg");
+    background-image: url("/Jam.jpeg");
     background-position: 42% 80%;
     background-size: 200%;
   }
 
   .dos {
-    background-image: url("public/web.jpg");
+    background-image: url("/web.jpg");
     background-position: 50% 40%;
     background-size: 100%;
   }
 
   .uno {
-    background-image: url("public/microcontrolador.jpg");
+    background-image: url("/microcontrolador.jpg");
     background-size: 80%;
     background-position: 52% 60%;
   }
@@ -782,7 +782,7 @@ span {
 @media (min-width: 860px) and (max-width: 900px) {
   .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("public/sal.jpg");
+      url("/sal.jpg");
     background-position: 10% 30%;
     width: 100%;
     height: 911px;
@@ -993,19 +993,19 @@ span {
   }
 
   .tres {
-    background-image: url("public/Jam.jpeg");
+    background-image: url("/Jam.jpeg");
     background-position: 42% 80%;
     background-size: 200%;
   }
 
   .dos {
-    background-image: url("public/web.jpg");
+    background-image: url("/web.jpg");
     background-position: 50% 40%;
     background-size: 100%;
   }
 
   .uno {
-    background-image: url("public/microcontrolador.jpg");
+    background-image: url("/microcontrolador.jpg");
     background-size: 80%;
     background-position: 52% 60%;
   }

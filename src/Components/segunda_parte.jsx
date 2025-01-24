@@ -25,10 +25,10 @@ function segunda_parte() {
       </div>
       <div className="logos">
         <div className="logo html">
-          <img src="public\html.png" alt="HTML" className="icon" />
+          <img src="\html.png" alt="HTML" className="icon" />
           <div className="skills">
             <div className="skill">
-              <div className="skill-name">HTML</div>
+              <div className="skill-name">HTML </div>
               <div className="skill-bar">
                 <div
                   className="skill-per"
@@ -40,7 +40,7 @@ function segunda_parte() {
           </div>
         </div>
         <div className="logo css">
-          <img src="public/css-3 (1).png" alt="CSS" />
+          <img src="/css-3 (1).png" alt="CSS" />
           <div className="skills">
             <div className="skill">
               <div className="skill-name">CSS</div>
@@ -55,7 +55,7 @@ function segunda_parte() {
           </div>
         </div>
         <div className="logo javaS">
-          <img src="public/jsT.png" alt="Java script" />
+          <img src="/jsT.png" alt="Java script" />
           <div className="skills">
             <div className="skill">
               <div className="skill-name">JS</div>
@@ -70,10 +70,7 @@ function segunda_parte() {
           </div>
         </div>
         <div className="logo python">
-          <img
-            src="public/python-logo-A47526A426-seeklogo.com.png"
-            alt="Python"
-          />
+          <img src="/python-logo-A47526A426-seeklogo.com.png" alt="Python" />
           <div className="skills">
             <div className="skill">
               <div className="skill-name">PY</div>
