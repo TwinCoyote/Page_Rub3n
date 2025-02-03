@@ -8,35 +8,15 @@ function Footer() {
     <div className="footer-container">
       <ContactForm />
       <div className="input-areas"></div>
-      <div className="footer-links">
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>Acerca de Nosotros</h2>
-            <Link to="/contacto">¿Quiénes somos?</Link>
-            <Link to="/sobre-nosotros">¿Cuánta experiencia tenemos?</Link>
-            <Link to="/sobre-nosotros">Términos de Servicio</Link>
-          </div>
-          <div className="footer-link-items">
-            <h2>Contacto</h2>
-            <Link to="/contacto">Ubicación </Link>
-            <Link to="/sobre-nosotros">Numeros de Telefono</Link>
-          </div>
-          <div className="footer-link-items">
-            <h2>Consultas y Cotizaciones</h2>
-            <Link to="/contacto">Ver en Persona</Link>
-            <Link to="/sobre-nosotros">Consultas por via Zoom</Link>
-            <Link to="/sobre-nosotros">WhatsApp </Link>
-          </div>
-        </div>
-      </div>
+      <div className="footer-links"></div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              Contadores Reyna <i className="fa-solid fa-calculator" />
+              RUB3N
             </Link>
           </div>
-          <small className="website-rights">Ruben.dev</small>
+          <small className="website-rights">ITS</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"

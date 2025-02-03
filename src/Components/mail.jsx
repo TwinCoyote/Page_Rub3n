@@ -17,7 +17,7 @@ export default function ContactForm() {
     e.preventDefault();
 
     const { nombre, telefono, correo, mensaje } = formData;
-    const destinatario = "contadores@lrcmx.com";
+    const destinatario = "contacto@rub3n.dev";
 
     const mailtoLink = `mailto:${destinatario}?subject=Mensaje de ${encodeURIComponent(
       nombre
@@ -27,6 +27,7 @@ export default function ContactForm() {
     Mensaje: ${encodeURIComponent(mensaje)}`;
 
     window.location.href = mailtoLink;
+    k;
   };
 
   return (
