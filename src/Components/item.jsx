@@ -1,11 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./projects.css";
 
-function item() {
+function Item(props) {
   return (
-    <div className="box-container">
-      <div></div>
-    </div>
+    <Link to={props.path}>
+      <div className="card">
+        <div className="v_uno">
+          <img src={props.image} />
+        </div>
+      </div>
+    </Link>
   );
 }
 
-export default item;
+export default Item;

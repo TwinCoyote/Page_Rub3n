@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "./Components/header";
-import Segunda_parte from "./Components/segunda_parte";
-import Tercera_parte from "./Components/tercera_parte";
-import "./index.css";
-import Footer from "./Components/Pie_Pagina";
+import Home from "./Components/Home.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Projects from "./Components/projects.jsx";
+
 function App() {
   return (
-    <div>
-      <Header />
-      <Segunda_parte />
-      <Tercera_parte />
-      <Footer />
+    <div className="content">
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        {/* Add other routes here */}
+      </Routes>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Itembox from "./itembox";
 
 function tercera_parte() {
   return (
@@ -16,16 +17,9 @@ function tercera_parte() {
           </div>
         </div>
       </div>
+
       <div className="ventanas">
-        <div className="v uno">
-          <div className="uno" />
-        </div>
-        <div className="v dos">
-          <div className="dos" />
-        </div>
-        <div className="v tres">
-          <div className="tres" />
-        </div>
+        <Itembox />
       </div>
     </div>
   );
