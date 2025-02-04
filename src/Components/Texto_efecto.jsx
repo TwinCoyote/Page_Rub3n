@@ -7,7 +7,13 @@ function TypedText() {
   useEffect(() => {
     // Configuración de Typed.js
     const typed = new Typed(typedElement.current, {
-      strings: ["Soy Ruben R.", "Soy Estudiante", "Soy Entusiasta"],
+      strings: [
+        "Soy Ruben R.",
+        "Soy Estudiante",
+        "Soy Entusiasta",
+        "Estoy Aprendiendo",
+        "Si puedes imaginarlo, puedes programarlo",
+      ],
       typeSpeed: 100,
       backSpeed: 70,
       loop: true,
@@ -20,7 +26,6 @@ function TypedText() {
 
   return (
     <div>
-      {/* El span es donde Typed.js añadirá el texto animado */}
       <span className="escritura" ref={typedElement}></span>
     </div>
   );

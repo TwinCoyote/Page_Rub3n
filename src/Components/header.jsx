@@ -1,28 +1,52 @@
 import React from "react";
 import TypedText from "./Texto_efecto";
 
+function scrollToSection(id) {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+}
 function Header() {
   return (
     <header className="home">
       <nav>
         <ul className="List">
           <li>
-            <a href="#Sobre_mi" className="">
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("about");
+              }}
+            >
               Sobre Mi
             </a>
           </li>
           <li>
-            <a href="#Proyectos" className="">
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("proyectos");
+              }}
+            >
               Proyectos{" "}
             </a>
           </li>
           <li>
-            <a href="#Ventas " className="">
+            <a href="/sales " className="">
               Ventas
             </a>
           </li>
           <li>
-            <a href="#Conacto" className="">
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("contact");
+              }}
+            >
               Contacto{" "}
             </a>
           </li>

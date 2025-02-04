@@ -5,7 +5,7 @@ import ContactForm from "./Mail";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contact">
       <ContactForm />
       <div className="input-areas"></div>
       <div className="footer-links"></div>

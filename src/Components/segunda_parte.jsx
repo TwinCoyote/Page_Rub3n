@@ -2,7 +2,7 @@ import React from "react";
 
 function segunda_parte() {
   return (
-    <div className="segunda_parte">
+    <div className="segunda_parte" id="about">
       <div className="sobre_mi">
         <h1>Sobre Mi</h1>
       </div>

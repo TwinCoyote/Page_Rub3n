@@ -3,7 +3,7 @@ import Itembox from "./itembox";
 
 function tercera_parte() {
   return (
-    <div className="tercera_parte">
+    <div className="tercera_parte" id="proyectos">
       <div className="proyectos">
         <div className="tercer_titulo">
           <h1>Proyectos</h1>
