@@ -1,7 +1,7 @@
 import React from "react";
 import Itembox from "./itembox";
 
-function tercera_parte() {
+function Tercera_parte() {
   return (
     <div className="tercera_parte" id="proyectos">
       <div className="proyectos">
@@ -25,4 +25,4 @@ function tercera_parte() {
   );
 }
 
-export default tercera_parte;
+export default Tercera_parte;
