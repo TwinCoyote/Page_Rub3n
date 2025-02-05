@@ -338,7 +338,6 @@ span {
     margin-top: 20px;
     top: 0;
     transition: all 0.1s ease-in-out;
-    z-index: 1000;
   }
 
   .List.scrolled {
@@ -350,29 +349,21 @@ span {
     background-color: rgba(63, 57, 57, 0.342);
   }
 
-  .List.scrolled img {
-    display: block;
-  }
-
-  .List img {
-    display: none;
-    width: 10px;
-    height: auto;
-  }
-
   .home {
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.185),
+        rgba(0, 0, 0, 0.521),
         rgba(0, 0, 0, 0.226)
       ),
-      url("/celulares.jpg");
-    width: 100%;
-    height: 849px;
-    background-size: 140%;
+      url("/sal.jpg");
+    width: 102%;
+    background-size: 100%;
+    background-size: cover; /* Para que la imagen cubra todo el div */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; /* Para evitar que se repita */
+    margin-top: -30%;
   }
 
   .first-text {
-    color: #ff8c42;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
   .escritura {
@@ -405,11 +396,11 @@ span {
   .sobre_mi {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 150%;
+    font-size: 130%;
     font-style: normal;
     height: 80px;
-    width: 43%;
-    margin-top: 8%;
+    width: 53%;
+    margin: 8%;
   }
 
   .descripcion {
@@ -421,9 +412,11 @@ span {
     font-weight: 500;
     font-size: 120%;
     font-style: normal;
-    width: 100%;
+    width: 97%;
     text-align: center;
-    margin-top: 6%;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: justify;
   }
   .logos {
     display: flex;
@@ -507,8 +500,11 @@ span {
     height: 950px;
     background-color: white;
   }
+  .linea {
+    display: none;
+  }
 }
-@media (min-width: 533px) and (max-width: 859px) {
+@media (min-width: 565px) and (max-width: 859px) {
   .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("/sal.jpg");
@@ -516,6 +512,14 @@ span {
     width: 100%;
     height: 911px;
     background-attachment: fixed;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -30%;
+  }
+  .linea {
+    display: none;
   }
 
   .List {
@@ -578,6 +582,7 @@ span {
   }
 
   .texto {
+    margin-top: 40%;
     color: white;
     font-size: 100px;
     font-weight: 600;
@@ -626,13 +631,13 @@ span {
   }
 
   .descripcion {
-    height: 40%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-self: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 140%;
     font-style: normal;
     width: 80%;
     text-align: center;
@@ -680,185 +685,4 @@ span {
     text-align: center;
   }
   */
-}
-@media (min-width: 860px) and (max-width: 900px) {
-  .home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/sal.jpg");
-    background-position: 10% 30%;
-    width: 100%;
-    height: 911px;
-    background-attachment: fixed;
-  }
-
-  .List {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 10%;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    margin-top: 10px;
-    top: 0;
-    transition: all 0.1s ease-in-out;
-    z-index: 1000;
-    color: #fff;
-  }
-
-  .List.scrolled {
-    justify-content: space-around;
-    top: 8px;
-    gap: 9%;
-  }
-
-  .List.scrolled img {
-    display: block;
-  }
-
-  .List img {
-    display: none;
-    width: 100px;
-    height: auto;
-  }
-
-  @media (width > 980px) {
-    .List {
-      top: 0.5rem;
-      mix-blend-mode: difference;
-    }
-  }
-
-  a {
-    color: #e8e8e8e0;
-    text-decoration: none;
-  }
-  h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-
-  .slide_1 {
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    margin-top: 250px;
-    margin-left: 2%;
-  }
-
-  .texto {
-    color: white;
-    font-size: 100px;
-    font-weight: 600;
-  }
-
-  .first-text {
-    color: #d4a017;
-  }
-
-  .escritura {
-    color: white;
-    font-size: 100px;
-    font-weight: 600;
-    margin-left: 2%;
-  }
-
-  .typed-cursor {
-    color: white;
-    text-align: center;
-    font-size: 100px;
-  }
-  .slide_1 {
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    margin-top: 100px;
-    width: 100%;
-  }
-
-  .segunda_parte {
-    width: 100%;
-    height: 845px;
-  }
-
-  .sobre_mi {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    font-style: normal;
-    height: 80px;
-    width: 245px;
-    margin-top: 2%;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-  }
-
-  .descripcion {
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    font-style: normal;
-    width: 80%;
-    text-align: center;
-  }
-  .logos {
-    display: flex;
-    justify-content: center;
-    margin-top: 8%;
-    gap: 5%;
-  }
-
-  .logo img {
-    width: 80%;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .skills {
-    width: 100%;
-    max-width: 600px;
-    padding: 70% 1px;
-  }
-
-  .proyectos {
-    width: 100%;
-    gap: 1%;
-    background-size: 200%;
-  }
-
-  .proyectos_des {
-    display: flex;
-    width: 100%;
-    font-size: 30px;
-    color: #ffffff;
-    justify-content: center;
-    align-self: center;
-  }
-
-  .proyectos_des_back {
-    width: 70%;
-    font-size: 100%;
-    text-align: center;
-  }
-
-  .tercer_titulo {
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-
-    text-shadow: rgb(0, 0, 0) 0 4px;
-  }
 }
