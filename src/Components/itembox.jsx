@@ -6,8 +6,8 @@ function Itembox() {
   return (
     <div className="Container">
       <Item image={"./microcontrolador.jpg"} path="/sales" />
-      <Item image={"./web.jpg"} path="/webs" />
-      <Item image={"./Jamm.jpeg"} path="/projects" />
+      <Item image={"./web.jpg"} path="/sales" />
+      <Item image={"./Jamm.jpeg"} path="/sales" />
     </div>
   );
 }
