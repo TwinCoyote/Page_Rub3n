@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header.jsx";
 import Segunda_parte from "./segunda_parte.jsx";
-import Tercera_parte from "./Tercera_parte.jsx";
+import Tercera_parte from "./tercera_parte.jsx";
 import "../index.css";
 import Footer from "./Pie_Pagina";
 
