@@ -4,8 +4,7 @@
 }
 @media screen and (max-width: 1525px) {
   .Container {
-    display: flex;
-    flex-direction: column;
-    background-color: red;
+    gap: 0px;
+    margin-top: 10%;
   }
 }

@@ -4,7 +4,7 @@
   height: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: -15%;
+  margin-top: -10%;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -13,7 +13,7 @@
 }
 .v_uno {
   width: 80%;
-  height: 95%;
+  height: 100%;
   display: flex;
   justify-content: center;
   border-radius: 50px;
@@ -26,13 +26,75 @@
 .card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
+
 @media screen and (max-width: 1525px) {
   .card {
-    width: 50%;
-    height: 75%;
-    background-color: green;
+    margin-top: -8%;
+  }
+  .v_uno {
+    width: 90%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 917px) {
+  .card {
+    margin-top: 12%;
+  }
+  .v_uno {
+    width: 90%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 697px) {
+  .card {
+    margin-top: 50%;
+  }
+  .v_uno {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 467px) {
+  .card {
+    margin-top: 120%;
+  }
+  .v_uno {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    overflow: hidden;
   }
 }
