@@ -1,7 +1,7 @@
 import React from "react";
 import "./Pie_Pagina.css";
 import { Link } from "react-router-dom";
-import ContactForm from "./Mail";
+import ContactForm from "./Mail.jsx";
 
 function Footer() {
   return (
