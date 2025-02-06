@@ -55,12 +55,6 @@ body::-webkit-scrollbar {
   display: block;
 }
 
-.List img {
-  display: none;
-  width: 100px;
-  height: auto;
-}
-
 @media (width > 980px) {
   .List {
     top: 0.5rem;
@@ -82,14 +76,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: baseline;
-  margin-left: 2%;
 }
 
 span {
   margin-top: 15%;
 }
 .escritura_mov {
-  margin-top: -7%;
 }
 
 .texto {
@@ -99,6 +91,7 @@ span {
 }
 
 .first-text {
+  margin-left: 2%;
   color: #d4a017;
 }
 
@@ -325,7 +318,7 @@ span {
   }
 }
 
-@media (max-width: 532px) {
+@media (max-width: 564px) {
   .List {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -355,7 +348,7 @@ span {
         rgba(0, 0, 0, 0.226)
       ),
       url("/sal.jpg");
-    width: 102%;
+    width: 100%;
     background-size: 100%;
     background-size: cover; /* Para que la imagen cubra todo el div */
     background-position: center; /* Para centrar la imagen */
@@ -404,25 +397,26 @@ span {
   }
 
   .descripcion {
-    height: 300px;
     display: flex;
     align-items: center;
     justify-self: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 120%;
+    font-size: 110%;
     font-style: normal;
     width: 97%;
+    height: 70%;
     text-align: center;
     margin-top: 10%;
-    margin-left: 5%;
     text-align: justify;
   }
+
   .logos {
     display: flex;
     justify-content: center;
     margin-top: 70px;
-    gap: 60%;
+    gap: 10%;
+    width: 100%;
   }
 
   .logo img {
@@ -436,7 +430,8 @@ span {
 
   .skills {
     width: 100%;
-    padding: 450% 1px;
+    margin: 60%;
+    margin-left: -1%;
   }
   .skill-per::before {
     content: attr(per);
@@ -578,7 +573,6 @@ span {
     align-items: center;
     justify-content: baseline;
     margin-top: 250px;
-    margin-left: 2%;
   }
 
   .texto {
